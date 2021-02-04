@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DSS</string>
+    <string name="app_name2">"Don't Stop Speaking"</string>
+    <string name="starter">Write your personal information to start</string>
+    <string name="write_eng"> Write your message here</string>
+    <string name="how_eng">Choose normal way to send your message</string>
+    <string name="tg_E">Telegram</string>
+    <string name="viber_E">Viber</string>
+
+
+    <string name="write_rus"> Напишите ваше сообщение здесь </string>
+    <string name="how_rus">Выберите способ передачи по умолчанию</string>
+    <string name="tg_R">Телеграм</string>
+    <string name="viber_R">Вайбер</string>
+    <string name="send">send</string>
+    <string name="getlogin">Write your login</string>
+    <string name="getpasspord">Write your password</string>
+    <string name="check">Check</string>
+    <string name="demo">that\'s the end of the demo version \n Wait the whole version \n and now you can donate me some money \n my card is ...</string>
+</resources>
