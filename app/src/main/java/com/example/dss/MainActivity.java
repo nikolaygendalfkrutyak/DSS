@@ -14,7 +14,7 @@ import com.example.dss.FirstOpenActivities.Registration;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton sender = new ImageButton();
+    /*ImageButton sender = new ImageButton();*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -22,8 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Intent openFirstOpenActivity = new Intent (MainActivity.this, Registration.class);
         startActivity(openFirstOpenActivity);
 
-        sender= findViewById(R.id.send);
-        sender.setOnClickListener(new View.OnClickListener() {
+        /*sender.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //... nobody knows
@@ -33,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onLongClick(View v) {
                 return false;
-                
+
             }
-        });
+        });*/
         /*SharedPreferences sp = new PreferenceManager.getDefaultSharedPreferences(this);
 
         boolean isAgain = sp.getBoolean("isAgain", false);
@@ -46,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             e.apply();
             Intent openFirstOpenActivity = new Intent (MainActivity.this, Registration.class);
             startActivity(openFirstOpenActivity);
-        }*/
+        }*///
+
+        // sender= findViewById(R.id.send);
     }
 }
